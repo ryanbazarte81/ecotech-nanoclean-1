@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech & NanoClean Exterior Services</title>
+    <meta name="description" content="Eco-friendly and advanced cleaning solutions for exterior surfaces.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#equipment">Equipment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <img src="hero-image.jpg" alt="EcoTech & NanoClean at work">
+            <div class="hero-text">
+                <h1>Eco-Friendly & Advanced Cleaning Solutions</h1>
+                <a href="#quote" class="cta-button">Get a Free Quote</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-us">
+            <h2>About Us</h2>
+            <p>Founded in [Year], EcoTech & NanoClean has been dedicated to providing eco-friendly and efficient exterior cleaning solutions.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Pressure Washing</h3>
+                <p>We clean various surfaces including driveways, sidewalks, and more.</p>
+            </div>
+            <div class="service-item">
+                <h3>Roof Cleaning</h3>
+                <p>Our eco-friendly solutions remove moss, algae, and other contaminants from your roof.</p>
+            </div>
+            <div class="service-item">
+                <h3>House Washing</h3>
+                <p>We provide thorough exterior house washing to remove dirt, mold, and mildew.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Before & After Gallery</h2>
+            <div class="gallery-item">
+                <img src="before1.jpg" alt="Before Cleaning">
+                <img src="after1.jpg" alt="After Cleaning">
+            </div>
+            <div class="gallery-item">
+                <img src="before2.jpg" alt="Before Cleaning">
+                <img src="after2.jpg" alt="After Cleaning">
+            </div>
+        </section>
+
+        <section id="equipment" class="equipment">
+            <h2>Our Equipment</h2>
+            <p>We use state-of-the-art equipment to ensure the best results for our clients.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EcoTech & NanoClean Exterior Services. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
